@@ -1,5 +1,12 @@
 #display-table {
   max-width: 95%;
+  position: relative;
+}
+
+#display-table img {
+  position: absolute;
+  right: 0.8rem;
+  top: -2.5rem;
 }
 
 #display-table table {

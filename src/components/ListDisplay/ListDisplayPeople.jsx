@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from "react";
 import "./ListDisplayPeople.css";
+import { Link } from "react-router-dom";
 
 function ListDisplayPeople() {
   const [data, setData] = useState([]);
@@ -13,6 +14,9 @@ function ListDisplayPeople() {
 
   return (
     <div id="display-table">
+      <Link to="filter">
+        <img src="filter.svg" alt="Filter" width={30} />
+      </Link>
       <table>
         <thead>
           <tr>
